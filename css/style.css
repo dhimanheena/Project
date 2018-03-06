@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin:0px;
+background-image:url(../images/money.jpg)
+}
+
+.body_main 
+{
+font-family: Geneva, Arial, Helvetica, sans-serif; color: #000000; font-size:16px
+}
+
+.align_right
+{  
+text-align:right 
+}
+
+.align_center
+{  
+text-align:center 
+}
+
+.button 
+{
+border:0 ; 
+background-color:#32292e; 
+color:#FFFFFF; 
+font-size:11px; 
+font-family:Arial, Helvetica, sans-serif; 
+font-weight:normal; 
+width:75px; 
+height:19px; 
+text-align:center; 
+vertical-align:middle
+}
+
+.white 
+{ 
+color:white; 
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:11px; 
+font-weight:normal 
+}
+
+.white13 
+{ 
+color:#000000 ; 
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:13px; 
+font-weight:normal 
+}
+
+.haeding 
+{ 
+color:#000000 ; 
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:13px; 
+font-weight:bold; 
+text-transform:uppercase; 
+text-decoration:none 
+}
+
+.haeding a
+{ 
+color:#000000; 
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:13px; 
+font-weight:bold; 
+text-transform:uppercase; 
+text-decoration:none 
+}
+
+.haeding a:hover
+{ 
+color:#dc7f34;
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:13px; 
+font-weight:bold; 
+text-transform:uppercase; 
+text-decoration:underline 
+}
+
+.time 
+{ 
+color:#000000 ; 
+font-family:Verdana, Arial, Helvetica, sans-serif ; 
+font-size:9px; 
+font-weight:bold; 
+}
+
+.bottom_heading 
+{	
+color: #271e1a;	
+font-size: 12px;	
+font-weight: bold;	
+font-family: Verdana, Arial, Helvetica, sans-serif;
+padding-top:7px; 
+padding-left:3px;
+}
+
+.bottom_text 
+{	
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 11px; 
+color:#000000; 
+text-decoration:none
+}
+
+.bottom_text a
+{	
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 11px; 
+color:#000000; 
+text-decoration:none
+}
+
+.bottom_text a:hover
+{	
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 11px; 
+color:#ff0000; 
+text-decoration:none
+}
+
+#container {
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#container #content_area
+{
+	padding: 0px;
+	width: 949px;
+	background-color:#000000;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+/* Top */
+
+#container #content_area #top
+{
+	background-image:url(../images/greenn.jpg);
+	height:35px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#container #content_area #top #left
+{
+	width: 500px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+	height: 25px;
+}
+
+#container #content_area #top #right
+{
+	height: 25px;
+	width: 200px;
+	padding-left:229px;
+	padding-top:10px;
+	float:left;
+	padding-right: 10px;
+}
+
+/* Logo */
+#container #content_area #logo
+{
+	height:55px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	width: 950px;
+	background-image:url(../images/greenn.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+/* Flash */
+#container #content_area #flash 
+{
+	height: 328px;
+	float: left;
+	width: 949px;
+}
+
+#container #content_area #bottom #testimonials 
+{
+	height: 200px;
+	width: 316px;
+	float: left;
+}
+
+#container #content_area #bottom #testimonials #testi_inner
+{
+	height: 170px;
+	width: 286px;
+	padding: 15px;
+}
+
+#container #content_area #bottom #subscribe 
+{
+	height: 200px;
+	width: 317px;
+	float: left;
+	padding: 0px;
+}
+
+#container #content_area #bottom #contact 
+{
+	float: left;
+	height: 200px;
+	width: 316px;
+}
+
+#container #content_area #left_body 
+{
+	height: 290px;
+	float: left;
+	width: 700px;
+	padding-top: 18px;
+	padding-left: 10px;
+	padding-right: 14px;
+}
+
+#container #content_area #bottom 
+{
+	height: 200px;
+	width: 949px;
+	float: left;
+	background-image: url(../images/green.jpg);
+	background-repeat:no-repeat;
+}
+
+#container #content_area #bottom_b 
+{
+	height:45px;
+	width: 949px;
+	float: left;
+	text-align:center;
+	vertical-align:middle;
+	background-image: url(../images/greenn.jpg);
+
+}
+
+#container #content_area #right_body 
+{
+	height: 308px;
+	float: left;
+	width: 224px;
+	background-image: url(../images/greenn.jpg);
+}
+
+
+/* body */
+#container #content_area #body 
+{
+	height: 308px;
+	float: left;
+	width: 949px;
+	background-image: url(../images/greenn.jpg);
+}
+
+
+
+/* Logo */
+#container #content_area #menu
+{
+	height:45px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+	width: 949px;
+	background-image: url(../images/green.jpg);
+	padding: 0px;
+}
+
+
+#menu ul 
+{
+	list-style-image: none;
+	list-style-type: none;
+	margin-top: 12px;
+	padding-top: 0px;
+	padding-right: 18px;
+}
+
+
+#menu li  
+{
+	margin:0px;
+	float: left;
+	list-style-image: none;
+	list-style-type: none;
+	padding-top: 0px;
+	padding-right: 39px;
+	padding-bottom: 0px;
+	padding-left: 39px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-color: #000000;
+}
+
+#menu li a 
+{
+	font-family: "Times New Roman", Times, serif;
+	color: #000000;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+#menu li a:hover 
+{
+	color: #dc7f34;
+	text-decoration: none;
+}
+
+#container #content_area #about_body {
+
+	float: left;
+	height:350px;
+	width: 925px;
+	padding-top: 18px;
+	padding-left: 10px;
+	padding-right: 14px;
+}
